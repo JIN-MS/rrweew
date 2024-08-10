@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.title {
+    color: red; /* Sets the title text color to red */
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+#feedback {
+    margin-top: 15px;
+    font-weight: bold;
+}
